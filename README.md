@@ -1,6 +1,6 @@
 # cookbook
 
-A new Flutter project.
+Es un nuevo proyecto, con la cual es segir las practicas de fluter.dev/cookbook
 
 ## Getting Started
 
