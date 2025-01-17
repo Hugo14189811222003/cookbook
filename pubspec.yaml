@@ -1,0 +1,30 @@
+name: package_fonts
+description: An example of how to use package fonts with Flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^14.6.3
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# flutter:
+#  fonts:
+#    - family: Raleway
+#      fonts:
+#        - asset: packages/awesome_package/fonts/Raleway-Regular.ttf
+#        - asset: packages/awesome_package/fonts/Raleway-Italic.ttf
+#          style: italic
+#     - family: RobotoMono
+#      fonts:
+#        - asset: fonts/RobotoMono-Regular.ttf
+#        - asset: fonts/RobotoMono-Bold.ttf
+#          weight: 700
+#  uses-material-design: true
+
+environment:
+  sdk: "^3.5.0"
+
