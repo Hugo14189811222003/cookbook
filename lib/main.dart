@@ -1,4 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:package_fonts/screen/Animation/animateProperties.dart';
+import 'package:package_fonts/screen/Animation/animateSimulation.dart';
+import 'package:package_fonts/screen/Animation/animationTrasition.dart';
+import 'package:package_fonts/screen/Animation/fadeOut.dart';
+import 'package:package_fonts/screen/Effect/chatBubbles.dart';
+import 'package:package_fonts/screen/Effect/download.dart';
+import 'package:package_fonts/screen/Effect/drawUI.DART';
+import 'package:package_fonts/screen/Effect/expandableFAB.dart';
+import 'package:package_fonts/screen/Effect/loadingEffect.dart';
+import 'package:package_fonts/screen/Effect/menuAnimation.dart';
+import 'package:package_fonts/screen/Effect/navigationFlow.dart';
+import 'package:package_fonts/screen/Effect/paraxallEfect.dart';
+import 'package:package_fonts/screen/Effect/typingIndicator.dart';
 import 'package:package_fonts/screen/ListPages/Create%20lists%20with%20different%20types%20of%20items.dart';
 import 'package:package_fonts/screen/ListPages/Create_a_grid_list.dart';
 import 'package:package_fonts/screen/ListPages/Create_a_horizontal_list.dart';
@@ -74,6 +87,20 @@ class centerHome extends StatelessWidget {
         "TodosScreen": (_) => TodosScreen(todos: todos),
         "DisplayImageInternet": (_) => DisplayImageInternet(),
         "imagePlaceholder": (_) => imagePlaceholder(),
+
+        "animationTransition": (_) => animationTrasition(),
+        "animateSimulation": (_) => PhysicsCardDragDemo(),
+        "AnimatedContainerApp": (_) => AnimatedContainerApp(),
+        "fadeOut": (_) => fadeOut(),
+        "ExampleCupertinoDownloadButton": (_) => ExampleCupertinoDownloadButton(),
+        "setupFlow": (_) => MaterialApp(),
+        "paraxallEfect": (_) => paraxallEfect(),
+        "ExampleUiLoadingAnimation": (_) => ExampleUiLoadingAnimation(),
+        "ExampleStaggeredAnimations": (_) => ExampleStaggeredAnimations(),
+        "ExampleIsTyping": (_) => ExampleIsTyping(),
+        "ExampleExpandableFab": (_) => ExampleExpandableFab(),
+        "Bubbles": (_) => ExampleGradientBubbles(),
+        "ExampleDragAndDrop": (_) => ExampleDragAndDrop()
       },
       initialRoute: "drawer",
     );

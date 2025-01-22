@@ -173,7 +173,95 @@ class Drawermenu extends StatelessWidget {
                   },
                 ),
               ],
-            )
+            ),
+            ExpansionTile(
+              title: Text("Animatión"),
+              children: [
+                ListTile(
+                  title: Text("Animate Transitión"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "animationTransition");
+                  },
+                ),
+                ListTile(
+                  title: Text("Animate Simulationn"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "animateSimulation");
+                  },
+                ),
+                ListTile(
+                  title: Text("AnimatedContainerApp"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "AnimatedContainerApp");
+                  },
+                ),
+                ListTile(
+                  title: Text("fadeOut"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "fadeOut");
+                  },
+                ),
+              ],
+            ),
+            ExpansionTile(
+              title: Text("Effect"),
+              children: [
+                ListTile(
+                  title: Text("ExampleCupertinoDownloadButton"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "ExampleCupertinoDownloadButton");
+                  },
+                ),
+                ListTile(
+                  title: Text("Flow"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "setupFlow");
+                  },
+                ),
+                ListTile(
+                  title: Text("paraxallEfect"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "paraxallEfect");
+                  },
+                ),
+                ListTile(
+                  title: Text("LoadBtton"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "ExampleUiLoadingAnimation");
+                  },
+                ),
+                ListTile(
+                  title: Text("ExampleAnimation"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "ExampleStaggeredAnimations");
+                  },
+                ),
+                ListTile(
+                  title: Text("ExampleIsTyping"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "ExampleIsTyping");
+                  },
+                ),
+                ListTile(
+                  title: Text("ExampleExpandableFab"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "ExampleExpandableFab");
+                  },
+                ),
+                ListTile(
+                  title: Text("Bubbles"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "Bubbles");
+                  },
+                ),
+                ListTile(
+                  title: Text("ExampleDragAndDrop"),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "ExampleDragAndDrop");
+                  },
+                )
+              ],
+              )
           ],
         ),
       ),
