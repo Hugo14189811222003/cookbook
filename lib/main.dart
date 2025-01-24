@@ -25,6 +25,12 @@ import 'package:package_fonts/screen/Navigation/Pass%20arguments.dart';
 import 'package:package_fonts/screen/Navigation/Senddata.dart';
 import 'package:package_fonts/screen/Navigation/navigateScreenBack.dart';
 import 'package:package_fonts/screen/Navigation/returnData.dart';
+import 'package:package_fonts/screen/Networking/Communicate.dart';
+import 'package:package_fonts/screen/Networking/Delete%20data.dart';
+import 'package:package_fonts/screen/Networking/Parse%20JSON.dart';
+import 'package:package_fonts/screen/Networking/album.dart';
+import 'package:package_fonts/screen/Networking/data%20over.dart';
+import 'package:package_fonts/screen/Networking/sendData.dart';
 import 'package:package_fonts/screen/design/Add%20a_drawer_to_a_screen.dart';
 import 'package:package_fonts/screen/design/Display_a_snackbar.dart';
 import 'package:package_fonts/screen/design/Export_fonts.dart';
@@ -35,6 +41,8 @@ import 'package:package_fonts/screen/design/Work_with_tabs.dart';
 import 'package:package_fonts/screen/drawerMenu.dart';
 import 'package:package_fonts/screen/imagePages/Display%20images%20from%20the%20internet.dart';
 import 'package:package_fonts/screen/imagePages/Fade%20in%20images%20placeholder.dart';
+import 'package:package_fonts/screen/persisten/datadisk.dart';
+import 'package:package_fonts/screen/persisten/readfiles.dart';
 
 void main(){
   runApp( const centerHome());
@@ -100,7 +108,15 @@ class centerHome extends StatelessWidget {
         "ExampleIsTyping": (_) => ExampleIsTyping(),
         "ExampleExpandableFab": (_) => ExampleExpandableFab(),
         "Bubbles": (_) => ExampleGradientBubbles(),
-        "ExampleDragAndDrop": (_) => ExampleDragAndDrop()
+        "ExampleDragAndDrop": (_) => ExampleDragAndDrop(),
+        "CounterApp": (_) => CounterApp(),
+        "datadisk": (_) => datadisk(),
+        "album": (_) => album(),
+        "sendData": (_) => sendData(),
+        "dataover": (_) => dataover(),
+        "deletedata": (_) => deletedata(),
+        "web": (_) => web(),
+        "parseJson": (_) => parseJson(),
       },
       initialRoute: "drawer",
     );

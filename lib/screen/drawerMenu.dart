@@ -261,6 +261,64 @@ class Drawermenu extends StatelessWidget {
                   },
                 )
               ],
+              ),
+              ExpansionTile(
+                title: Text("Persisten"),
+                children: [
+                  ListTile(
+                    title: Text("CounterApp"),
+                    onTap: () {
+                      Navigator.pushReplacementNamed(context, "CounterApp");
+                    },
+                  ),
+                  ListTile(
+                    title: Text("datadisk"),
+                    onTap: () {
+                      Navigator.pushReplacementNamed(context, "datadisk");
+                    },
+                  ),
+                ],
+              ),
+              ExpansionTile(
+                title: Text("Networking"),
+                children: [
+                  ListTile(
+                    title: Text("album"),
+                    onTap: () {
+                      Navigator.pushReplacementNamed(context, "album");
+                    },
+                  ),
+                  ListTile(
+                    title: Text("sendData"),
+                    onTap: () {
+                      Navigator.pushReplacementNamed(context, "sendData");
+                    },
+                  ),
+                  ListTile(
+                    title: Text("dataover"),
+                    onTap: () {
+                      Navigator.pushReplacementNamed(context, "dataover");
+                    },
+                  ),
+                  ListTile(
+                    title: Text("deletedata"),
+                    onTap: () {
+                      Navigator.pushReplacementNamed(context, "deletedata");
+                    },
+                  ),
+                  ListTile(
+                    title: Text("webCommunicate"),
+                    onTap: () {
+                      Navigator.pushReplacementNamed(context, "web");
+                    },
+                  ),
+                  ListTile(
+                    title: Text("parseJson"),
+                    onTap: () {
+                      Navigator.pushReplacementNamed(context, "parseJson");
+                    },
+                  )
+                ],
               )
           ],
         ),
